@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    font-family: arial;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    background-color: #000000;
+    padding: 10pt;
+    margin-bottom: 10pt;
+}
+
+nav a{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+nav li{
+    margin: 10pt 0;
+}
+
+.select{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.grafico{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.economiaChart{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+.atalhos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50pt;
+}
+
+.atalhos .card{
+    width: calc(50% - 50pt);
+    padding: 10pt;
+    margin: 10pt;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 10pt;
+    height: 30pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.atalhos .card i{
+    margin: 5pt;
+}
+
+#formVeic, #formAbast {
+    display: none;
+    position: fixed;
+    background-color: #000000;
+    padding: 30pt 10pt;
+    border-radius: 10pt;
+    color: #ffffff;
+    box-shadow: 5pt 5pt 10pt #ffffff60;
+}
+
+#formVeic i, #formAbast i{
+    padding: 10pt;
+}
+
+.formularios{
+    left: 50%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.openForm{
+    display: flex !important;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #000000;
+    margin-top: 50pt;
+}
+
+footer a {
+    color: #000000;
+}
+
+
+
+
+
+
+
+@media (min-width: 600px){
+    .economiaChart{
+    width: 70%;
+}
+}
